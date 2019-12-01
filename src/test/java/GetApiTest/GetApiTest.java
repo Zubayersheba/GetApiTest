@@ -96,12 +96,24 @@ public class GetApiTest extends TestBase {
         String geo_lat= TestUtil.getValueByJPath(responseJson, "/addresses[0]/geo_informations/lat");
 
         System.out.println("--ID---->" + id);
+        Assert.assertEquals("Id not matched",150027,Integer.parseInt(id));
+
         System.out.println("--Location ID---->" + location_id);
+        Assert.assertEquals("Id not matched",4,Integer.parseInt(location_id));
+
         System.out.println("--Address---->" + address);
+        Assert.assertEquals("Sheba Banani office House 57 Rd No - 25/A, Dhaka 1212, Bangladesh",address);
+
         System.out.println("--Address Name---->" + name);
+        Assert.assertEquals("Home",name);
+
         System.out.println("--Flat No---->" + flat_no);
+        Assert.assertEquals("House 57 Rd No - 25/A,",flat_no);
+
         System.out.println("--Geo_informations lng---->" + geo_lng);
+        Assert.assertEquals("90.4030458",geo_lng);
         System.out.println("--Geo_informations lat---->" + geo_lat);
+        Assert.assertEquals("23.7982677",geo_lat);
 
     }
     /*public void getApiTestSheba() throws ClientProtocolException,IOException {

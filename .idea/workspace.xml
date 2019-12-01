@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="bac83263-ccda-448f-b868-3975a2cb6b25" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/restapi/client/Restclient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/restapi/client/Restclient.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/GetApiTest/GetApiTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/GetApiTest/GetApiTest.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -101,8 +100,17 @@
       <workItem from="1574566035978" duration="2913000" />
       <workItem from="1574737579397" duration="3406000" />
       <workItem from="1574823816017" duration="2319000" />
-      <workItem from="1575087537561" duration="11643000" />
+      <workItem from="1575087537561" duration="12569000" />
+      <workItem from="1575209651599" duration="2097000" />
     </task>
+    <task id="LOCAL-00001" summary="[Live Api update]">
+      <created>1575113623324</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1575113623325</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -120,5 +128,14 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="[Live Api update]" />
+    <option name="LAST_COMMIT_MESSAGE" value="[Live Api update]" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state width="180" height="359" key="Git.Branch.Popup" />
+    <state width="180" height="359" key="Git.Branch.Popup/1920.1080" />
+    <state width="180" height="359" key="Git.Branch.Popup@1920.1080" />
   </component>
 </project>
