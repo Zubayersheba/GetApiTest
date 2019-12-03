@@ -2,8 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bac83263-ccda-448f-b868-3975a2cb6b25" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/test/java/GetApiTest/LoanBusinessInfo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/restapi/client/Restclient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/restapi/client/Restclient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/restapi/config/config.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/restapi/config/config.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/GetApiTest/GetApiTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/GetApiTest/GetApiTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/GetApiTest/GetApiTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/GetApiTest/GetApiTest.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -57,7 +61,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="TestNG.LoanBusinessInfo">
     <configuration name="GetApiTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="ApiTest" />
       <extension name="coverage">
@@ -75,8 +79,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="LoanBusinessInfo" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="ApiTest" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="GetApiTest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="GetApiTest" />
+      <option name="MAIN_CLASS_NAME" value="GetApiTest.LoanBusinessInfo" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.LoanBusinessInfo" />
         <item itemvalue="TestNG.GetApiTest" />
       </list>
     </recent_temporary>
@@ -101,7 +123,8 @@
       <workItem from="1574737579397" duration="3406000" />
       <workItem from="1574823816017" duration="2319000" />
       <workItem from="1575087537561" duration="12569000" />
-      <workItem from="1575209651599" duration="2097000" />
+      <workItem from="1575209651599" duration="3011000" />
+      <workItem from="1575367243516" duration="5446000" />
     </task>
     <task id="LOCAL-00001" summary="[Live Api update]">
       <created>1575113623324</created>
@@ -110,7 +133,14 @@
       <option name="project" value="LOCAL" />
       <updated>1575113623325</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="[Address assertion]">
+      <created>1575211992000</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1575211992000</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -131,7 +161,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="[Live Api update]" />
-    <option name="LAST_COMMIT_MESSAGE" value="[Live Api update]" />
+    <MESSAGE value="[Address assertion]" />
+    <option name="LAST_COMMIT_MESSAGE" value="[Address assertion]" />
   </component>
   <component name="WindowStateProjectService">
     <state width="180" height="359" key="Git.Branch.Popup" />

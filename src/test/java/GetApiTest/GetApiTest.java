@@ -112,6 +112,7 @@ public class GetApiTest extends TestBase {
 
         System.out.println("--Geo_informations lng---->" + geo_lng);
         Assert.assertEquals("90.4030458",geo_lng);
+
         System.out.println("--Geo_informations lat---->" + geo_lat);
         Assert.assertEquals("23.7982677",geo_lat);
 
