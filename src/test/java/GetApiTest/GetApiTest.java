@@ -67,7 +67,7 @@ public class GetApiTest extends TestBase {
       System.out.println("--Geo_informations lat---->" + geo_lat);
 
   }*/
-    @Test
+    /* @Test
     public void getApiTestSheba() throws ClientProtocolException,IOException {
         restclient=new Restclient();
         closeableHttpResponse = restclient.get(url1sheba);
@@ -116,8 +116,9 @@ public class GetApiTest extends TestBase {
         System.out.println("--Geo_informations lat---->" + geo_lat);
         Assert.assertEquals("23.7982677",geo_lat);
 
-    }
-    /*public void getApiTestSheba() throws ClientProtocolException,IOException {
+    }*/
+  @Test
+   public void getApiTestSheba() throws ClientProtocolException,IOException {
         restclient=new Restclient();
          closeableHttpResponse = restclient.get(url1);
          //Status code
@@ -157,7 +158,7 @@ public class GetApiTest extends TestBase {
         System.out.println("--Last Name---->" + last_name);
         System.out.println("--Avatar---->" + avatar);
 
-    }*/
+    }
 
 
 }
