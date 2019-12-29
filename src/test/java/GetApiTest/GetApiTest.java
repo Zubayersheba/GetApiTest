@@ -29,44 +29,15 @@ public class GetApiTest extends TestBase {
        // testbase=new TestBase();
         serviceUrl=prop.getProperty("url");
         apiurl=prop.getProperty("serviceURL");
+        url1=serviceUrl+apiurl;
+
+        //shebaurl
         String serviceUrlsheba = prop.getProperty("urlsheba");
         String apiurlsheba = prop.getProperty("serviceURLsheba");
-         url1=serviceUrl+apiurl;
         url1sheba = serviceUrlsheba + apiurlsheba;
-       /* Restclient restclient=new Restclient();
-        CloseableHttpResponse closeableHttpResponse = restclient.get(url1);
-        Restclient restclientsheba=new Restclient();
-        restclient.get(url1);*/
 
     }
-  /*  @Test
-    public void getApiTest() throws ClientProtocolException,IOException {
-         restclient=new Restclient();
-         restclient.get(url1);
-       // System.out.println(url1);
 
-    }*/
-  /*public void addresses() throws IOException {
-      String responseString = EntityUtils.toString(closeableHttpResponse.getEntity(), "UTF-8");
-      JSONObject responseJson=new JSONObject(responseString);
-
-      String address= TestUtil.getValueByJPath(responseJson, "/addresses[0]/address");
-      String id= TestUtil.getValueByJPath(responseJson, "/addresses[0]/id");
-      String location_id= TestUtil.getValueByJPath(responseJson, "/addresses[0]/location_id");
-      String name= TestUtil.getValueByJPath(responseJson, "/addresses[0]/name");
-      String flat_no= TestUtil.getValueByJPath(responseJson, "/addresses[0]/flat_no");
-      String geo_lng= TestUtil.getValueByJPath(responseJson, "/addresses[0]/geo_informations/lng");
-      String geo_lat= TestUtil.getValueByJPath(responseJson, "/addresses[0]/geo_informations/lat");
-
-      System.out.println("--ID---->" + id);
-      System.out.println("--Location ID---->" + location_id);
-      System.out.println("--Address---->" + address);
-      System.out.println("--Address Name---->" + name);
-      System.out.println("--Flat No---->" + flat_no);
-      System.out.println("--Geo_informations lng---->" + geo_lng);
-      System.out.println("--Geo_informations lat---->" + geo_lat);
-
-  }*/
     /* @Test
     public void getApiTestSheba() throws ClientProtocolException,IOException {
         restclient=new Restclient();
