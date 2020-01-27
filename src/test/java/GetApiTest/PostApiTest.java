@@ -48,19 +48,19 @@ public class PostApiTest extends TestBase {
 
         //jackson api
         ObjectMapper mapper=new ObjectMapper();
-        Users users=new Users("kabir","TL"); //expected user object
+        Users users=new Users("kabir","TL"); //expected user object , declare object and pass data in constructor
 
         //object to json
         mapper.writeValue(new File("F:\\ApiTest\\src\\main\\java\\com\\qa\\classData\\users.json"), users);
 
         //object to json in string
-       String  userjsonstring=mapper.writeValueAsString(users);
+        String  userjsonstring=mapper.writeValueAsString(users);
         System.out.println(userjsonstring);
 
         closeableHttpResponse= restclient.post(url1,userjsonstring,headerMap);
-        //statuscode
+        //server response statuscode
         int statuscode=closeableHttpResponse.getStatusLine().getStatusCode();
-        Assert.assertEquals(statuscode,Response_code_201);
+        Assert.assertEquals(statuscode,Response_code_201);//server hit response
 
         //jsonstring
        String responseString= EntityUtils.toString(closeableHttpResponse.getEntity(), "UTF-8");

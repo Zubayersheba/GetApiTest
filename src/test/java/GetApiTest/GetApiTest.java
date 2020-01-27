@@ -23,6 +23,7 @@ public class GetApiTest extends TestBase {
     String url1sheba;
     Restclient restclient;
     CloseableHttpResponse closeableHttpResponse;
+    int customerId;
 
     @BeforeMethod
     public void setUp() throws IOException {
@@ -38,7 +39,9 @@ public class GetApiTest extends TestBase {
 
     }
 
-    /* @Test
+    /*Sheba Delivery address automation test
+
+     @Test
     public void getApiTestSheba() throws ClientProtocolException,IOException {
         restclient=new Restclient();
         closeableHttpResponse = restclient.get(url1sheba);
@@ -88,6 +91,8 @@ public class GetApiTest extends TestBase {
         Assert.assertEquals("23.7982677",geo_lat);
 
     }*/
+
+    //Dummy get api automation test
   @Test
    public void getApiTestSheba() throws ClientProtocolException,IOException {
         restclient=new Restclient();
